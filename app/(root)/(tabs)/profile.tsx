@@ -78,10 +78,7 @@ const Profile = () => {
               source={{ uri: user?.avatar || images.avatar }}
               className="size-44 relative rounded-full"
             />
-            <TouchableOpacity
-              onPress={handleLogout}
-              className="absolute right-2 bottom-11"
-            >
+            <TouchableOpacity className="absolute right-2 bottom-11">
               <Image source={icons.edit} className="size-9" />
             </TouchableOpacity>
             <Text className="text-2xl font-rubik-bold mt-2">
